@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Mini Hackathon - Car Selling Website
+Date & Time: Tuesday, 7 PM - 10 PM
 
-## Getting Started
+Description
+This is a class-based hackathon where everyone is required to develop a minimalist car selling website using the given technologies. After completing the project, please submit it using the provided Google Form link, and make sure to deploy it on Vercel.
 
-First, run the development server:
+Google Form Link
+Technologies Used
+Next.js (App Router)
+Tailwind CSS
+Features
+1. Navbar Component
+Create a reusable Navbar component that will be visible on all pages.
+The Navbar should only be defined once and imported where needed.
+2. Footer Component
+Create a reusable Footer component that will be visible on all pages.
+Like the Navbar, it should be defined once and reused.
+3. Homepage (Route Segment)
+Implement a homepage route that includes:
+Hero Section Component: A visually appealing introductory section.
+Featured New Car Section: Display a list of featured cars.
+4. Featured New Car Component
+When a car is clicked, the user should be redirected to the corresponding car details page.
+Example routes:
+Clicking on "Toyota Corolla" should navigate to /toyota-corolla.
+Clicking on "Honda Civic" should navigate to /honda-civic.
+5. Car Details (Route Segment)
+The car details page should display detailed information about the selected car (see attached screenshots for content).
+Include a "Make Payment" button that redirects to a form where users can submit their card details.
+After submitting the form, the user should be redirected to a "Thank You" page.
+6. Thank You (Route Segment)
+Create a "Thank You" page to display a confirmation message after the order is placed.
+Screenshots
+Include the screenshots for the following sections:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Hero Section
+Featured New Car Section
+Car Details Page
+Thank You Page
+Submission Instructions
+Repository Setup: Create a GitHub repository and add your project code.
+Deployment: Deploy the project on Vercel.
+Submission: Submit the GitHub repository link and Vercel deployment URL via the Google Form.
+Requirements Checklist
+ Navbar Component: Visible on all pages.
+ Footer Component: Visible on all pages.
+ Homepage: Includes Hero Section and Featured New Car Section.
+ Car Details: Display car details and handle payment redirection.
+ Thank You Page: Displays confirmation after placing an order.
+ Deployment on Vercel.
+ Submission via the Google Form.
+Getting Started
+To set up the project locally:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Clone the repository:
+git clone <repository-url>
+cd <repository-directory>
