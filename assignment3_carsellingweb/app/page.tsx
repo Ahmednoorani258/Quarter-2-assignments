@@ -4,7 +4,7 @@ import FeaturedCarSection from "./Component/FeaturedCarSection";
 
 export default function Home() {
   return (
-   <div>
+   <div className="">
     <HeroSection/>
     <FeaturedCarSection/>
    </div>

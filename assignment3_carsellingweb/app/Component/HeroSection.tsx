@@ -1,6 +1,6 @@
 export default function HeroSection(){
     return(
-        <section className="flex justify-center items-center w-full h-[400px] flex-col py-16 ">
+        <section className="flex justify-center items-center w-full h-[400px] flex-col py-16 px-44">
 
             <div className="h-full  text-lg">
             <h2 className="text-center text-3xl font-bold mb-[-14px] text-slate-700">Sell Your Car on Pak Wheels and Get the Best Price</h2>
