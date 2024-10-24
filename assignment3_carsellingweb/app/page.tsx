@@ -5,8 +5,8 @@ import FeaturedCarSection from "./Component/FeaturedCarSection";
 export default function Home() {
   return (
    <div className="">
-    <HeroSection/>
-    <FeaturedCarSection/>
+    {/* <HeroSection/> */}
+    {/* <FeaturedCarSection/> */}
    </div>
   );
 }

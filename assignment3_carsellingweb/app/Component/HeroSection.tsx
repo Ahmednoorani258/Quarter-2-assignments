@@ -1,10 +1,10 @@
 export default function HeroSection(){
     return(
-        <section className="flex justify-center items-center w-full h-[400px] flex-col py-16 px-44">
+        <section className="flex justify-center items-center w-screen h-[400px] flex-col py-16 px-44">
 
             <div className="h-full  text-lg">
-            <h2 className="text-center text-3xl font-bold mb-[-14px] text-slate-700">Sell Your Car on Pak Wheels and Get the Best Price</h2>
-            <div className="flex justify-evenly items-center border-2 border-grey-700 w-[1000px] py-8">
+            <h2 className="text-center text-xl text-wrap md:text-3xl font-bold mb-[-14px] text-slate-700">Sell Your Car on Pak Wheels and Get the Best Price</h2>
+            <div className="flex flex-col md:flex-row justify-evenly items-center border-2 border-grey-700 w-auto py-8">
             <div>
                 <h3 className="text-2xl font-bold text-cyan-800 my-4">Post your Ad on PakWheels</h3>
                 <div>
