@@ -4,7 +4,7 @@ import car1 from '@/public/Cover.jpg'
 
 export default function CarDetail(){
     return(
-        <div className="px-44 py-6 flex justify-center items-center flex-col">
+        <div className="px-12 md:px-44 py-6 flex justify-center items-center flex-col">
             <h1 className='text-4xl font-bold underline'>Toyota corolla 2024 price in pakistan</h1>
             <Image src={car1} alt='car' width={500} height={500}></Image>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eaque ea, quo quibusdam dolorem nemo adipisci consectetur sapiente necessitatibus mollitia tempore rem molestiae eum cumque at molestias reprehenderit repudiandae. Voluptatum!
