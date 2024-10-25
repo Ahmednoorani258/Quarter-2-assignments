@@ -4,7 +4,7 @@ export default function HeroSection() {
 
             <div className="h-full  text-lg">
                 <h2 className="text-center text-2xl  md:text-3xl font-bold mb-[-14px] text-slate-700 ">Sell Your Car on Pak Wheels and Get the Best Price</h2>
-                <div className="text-black flex flex-col md:flex-row justify-start md:justify-evenly items-center border-2 border-grey-700 w-auto  md:p-20 lg:px-12 py-8">
+                <div className="text-black flex flex-col md:flex-row justify-start md:justify-evenly items-center border-2 border-grey-700 w-auto  md:p-12 lg:px-12 py-8">
                     <div className="my-4 px-5  ">
                         <h3 className="text-2xl font-bold text-cyan-800  my-4">Post your Ad on PakWheels</h3>
                         <div>
