@@ -12,7 +12,7 @@ export default function FeaturedCarSection(){
             </ul>
             <div className="flex flex-col md:flex-row items-center space-x-3 justify-between">
                      {carsData.map((car:CarsCardData) => {
-                         return  <CarCard key={car.id} {...car} /> 
+                         return  <CarCard key={car.slug} {...car} /> 
                      })}   
             </div>
         </div>

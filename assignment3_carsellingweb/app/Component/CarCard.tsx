@@ -5,7 +5,7 @@ import { CarsCardData } from "../data/data"
 export default function CarCard( cardData:CarsCardData){
     return(
         <div className="bg-white p-2 h-auto w-80 my-8 flex flex-col items-center ">
-            <Link href={`/cars/${cardData.carName.replace(/\s+/g, '-').toLowerCase()}`}><Image src={cardData.image} alt="car1" height={300} width={300} /></Link>
+            <Link href={`/cars/${cardData.slug}`}><Image src={cardData.image} alt="car1" height={300} width={300} /></Link>
             <h2 className="text-2xl font-bold text-slate-600">{cardData.carName}</h2>
             <h2 className="text-xl font-semibold text-green-400">PKR {cardData.pricerange} lacs</h2>
 

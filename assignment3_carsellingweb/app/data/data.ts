@@ -1,6 +1,7 @@
 import car from '../../public/Cover.jpg'
 interface CarsCardData {
     id:number,
+    slug:string,
     image: string,
     carName: string,
     pricerange: string,
@@ -9,6 +10,7 @@ interface CarsCardData {
 
 interface CarsPageData {
     id:number,
+    slug:string,
     heading: string,
     image: string,
     para: string,
@@ -20,6 +22,7 @@ interface CarsPageData {
 let carsData: CarsPageData[] & CarsCardData[] = [
     {
         id: 1,
+        slug:'toyotacorolla',
         heading: 'Toyota Corolla 2024 Price in Pakistan, Images, Reviews & Specs',
         image: '/Corolla-X-Cars-Cropped-Pictures-for-Website.jpg',
         para: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eaque ea, quo quibusdam dolorem nemo adipisci consectetur sapiente necessitatibus mollitia tempore rem molestiae eum cumque at molestias reprehenderit repudiandae. Voluptatum! Omnis ex laudantium rem quibusdam nobis ab veritatis eius eveniet recusandae dicta. Illo nulla sed labore aperiam expedita natus eveniet laboriosam nisi impedit temporibus aliquid, amet adipisci ipsum nemo vel! Voluptas mollitia eaque beatae unde, dolor consequatur, eligendi sapiente debitis distinctio eos veritatis quos voluptate, hic facilis magnam voluptatem dolore. Fuga eligendi quod provident repudiandae, perspiciatis error. Minus, beatae eius. Veniam minima dolores quod deserunt quis aliquid porro quisquam suscipit doloribus nam iste, alias odit, tempora inventore assumenda tempore, fugiat soluta. Incidunt, eum recusandae. Laboriosam explicabo soluta alias provident incidunt? Ipsa fuga porro dolorem exercitationem saepe temporibus omnis soluta nisi amet ullam, veniam rem? Corrupti corporis exercitationem eum dolore animi iure est explicabo aut cupiditate. Adipisci veritatis quas provident distinctio.',
@@ -30,6 +33,7 @@ let carsData: CarsPageData[] & CarsCardData[] = [
     },
     {
         id: 2,
+        slug:'suzukialto',
         heading: 'Suzuki Alto 2024 Price in Pakistan, Images, Reviews & Specs',
         image: '/Suzuki_Alto_-_PNG.png',
         para: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eaque ea, quo quibusdam dolorem nemo adipisci consectetur sapiente necessitatibus mollitia tempore rem molestiae eum cumque at molestias reprehenderit repudiandae. Voluptatum! Omnis ex laudantium rem quibusdam nobis ab veritatis eius eveniet recusandae dicta. Illo nulla sed labore aperiam expedita natus eveniet laboriosam nisi impedit temporibus aliquid, amet adipisci ipsum nemo vel! Voluptas mollitia eaque beatae unde, dolor consequatur, eligendi sapiente debitis distinctio eos veritatis quos voluptate, hic facilis magnam voluptatem dolore. Fuga eligendi quod provident repudiandae, perspiciatis error. Minus, beatae eius. Veniam minima dolores quod deserunt quis aliquid porro quisquam suscipit doloribus nam iste, alias odit, tempora inventore assumenda tempore, fugiat soluta. Incidunt, eum recusandae. Laboriosam explicabo soluta alias provident incidunt? Ipsa fuga porro dolorem exercitationem saepe temporibus omnis soluta nisi amet ullam, veniam rem? Corrupti corporis exercitationem eum dolore animi iure est explicabo aut cupiditate. Adipisci veritatis quas provident distinctio.',
@@ -40,6 +44,7 @@ let carsData: CarsPageData[] & CarsCardData[] = [
     },
     {
         id: 3,
+        slug:'hondacity',
         heading: 'Honda City 2024 Price in Pakistan, Images, Specs & Features',
         image: '/Honda_City_Front.jpg',
         para: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eaque ea, quo quibusdam dolorem nemo adipisci consectetur sapiente necessitatibus mollitia tempore rem molestiae eum cumque at molestias reprehenderit repudiandae. Voluptatum! Omnis ex laudantium rem quibusdam nobis ab veritatis eius eveniet recusandae dicta. Illo nulla sed labore aperiam expedita natus eveniet laboriosam nisi impedit temporibus aliquid, amet adipisci ipsum nemo vel! Voluptas mollitia eaque beatae unde, dolor consequatur, eligendi sapiente debitis distinctio eos veritatis quos voluptate, hic facilis magnam voluptatem dolore. Fuga eligendi quod provident repudiandae, perspiciatis error. Minus, beatae eius. Veniam minima dolores quod deserunt quis aliquid porro quisquam suscipit doloribus nam iste, alias odit, tempora inventore assumenda tempore, fugiat soluta. Incidunt, eum recusandae. Laboriosam explicabo soluta alias provident incidunt? Ipsa fuga porro dolorem exercitationem saepe temporibus omnis soluta nisi amet ullam, veniam rem? Corrupti corporis exercitationem eum dolore animi iure est explicabo aut cupiditate. Adipisci veritatis quas provident distinctio.',
@@ -50,6 +55,7 @@ let carsData: CarsPageData[] & CarsCardData[] = [
     },
     {
         id: 4,
+        slug:'hondacivic',
         heading: 'Honda Civic 2024 Price in Pakistan, Images, Specs & Features',
         image: '/Cover.jpg',
         para: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eaque ea, quo quibusdam dolorem nemo adipisci consectetur sapiente necessitatibus mollitia tempore rem molestiae eum cumque at molestias reprehenderit repudiandae. Voluptatum! Omnis ex laudantium rem quibusdam nobis ab veritatis eius eveniet recusandae dicta. Illo nulla sed labore aperiam expedita natus eveniet laboriosam nisi impedit temporibus aliquid, amet adipisci ipsum nemo vel! Voluptas mollitia eaque beatae unde, dolor consequatur, eligendi sapiente debitis distinctio eos veritatis quos voluptate, hic facilis magnam voluptatem dolore. Fuga eligendi quod provident repudiandae, perspiciatis error. Minus, beatae eius. Veniam minima dolores quod deserunt quis aliquid porro quisquam suscipit doloribus nam iste, alias odit, tempora inventore assumenda tempore, fugiat soluta. Incidunt, eum recusandae. Laboriosam explicabo soluta alias provident incidunt? Ipsa fuga porro dolorem exercitationem saepe temporibus omnis soluta nisi amet ullam, veniam rem? Corrupti corporis exercitationem eum dolore animi iure est explicabo aut cupiditate. Adipisci veritatis quas provident distinctio.',
