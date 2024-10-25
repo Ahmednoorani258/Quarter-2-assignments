@@ -1,4 +1,4 @@
-import car from '../../public/Cover.jpg'
+
 interface CarsCardData {
     id:number,
     slug:string,
@@ -19,7 +19,7 @@ interface CarsPageData {
 
 }
 
-let carsData: CarsPageData[] & CarsCardData[] = [
+const carsData: CarsPageData[] & CarsCardData[] = [
     {
         id: 1,
         slug:'toyotacorolla',

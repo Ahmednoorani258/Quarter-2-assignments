@@ -1,3 +1,6 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { CarsPageData, carsData } from '@/app/data/data';
@@ -8,7 +11,7 @@ async function getCarData(carname: string): Promise<CarsPageData | undefined> {
     return car;
 }
 
-export default async function CarDetail({ params }: { params: { carname: string } }) {
+export default async function CarDetail({ params }: { params: { carname: string } }):Promise<any> {
     const {carname} = await params;
     const carData = await getCarData(carname);
     if (!carData) return notFound();
