@@ -1,4 +1,5 @@
 import CarCard from "./CarCard";
+import { CarsCardData ,carsData } from "../data/data";
 
 export default function FeaturedCarSection(){
     return(
@@ -9,11 +10,10 @@ export default function FeaturedCarSection(){
                 <li className="p-3">Upcoming</li>
                 <li className="p-3">Newly Launched</li>
             </ul>
-            <div className="flex flex-col md:flex-row items-center justify-between">
-            <CarCard/>
-            <CarCard/>
-            <CarCard/>
-            <CarCard/>
+            <div className="flex flex-col md:flex-row items-center space-x-3 justify-between">
+                     {carsData.map((car:CarsCardData) => {
+                         return  <CarCard key={car.id} {...car} /> 
+                     })}   
             </div>
         </div>
     )
