@@ -6,4 +6,4 @@
 <br>
 3rd ,4th , 5th assignment link (all in one):https://carsellingclone.vercel.app/
 <br>
-6th assignment Live demo: 
+6th assignment Live demo: https://quarter-2-assignments-nu.vercel.app/
